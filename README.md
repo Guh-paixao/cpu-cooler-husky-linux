@@ -37,9 +37,10 @@ cd cpu-cooler-husky-linux
 pip install psutil hid
 ```
 
-### 3. Torne o script executável:
+### 3. Copie e Torne o script executável:
 
 ```bash
+sudo cp cpu_cooler.py /usr/local/bin/
 sudo chmod +x /usr/local/bin/cpu_cooler.py
 ```
 
