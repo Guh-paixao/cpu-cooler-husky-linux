@@ -1,0 +1,16 @@
+[Unit]
+Description=CPU Cooler HID Display Service
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /usr/local/bin/cpu_cooler.py
+Restart=always
+User=root
+StandardOutput=journal
+StandardError=journal
+Environment=PATH=/usr/bin:/usr/local/bin
+WorkingDirectory=/usr/local/bin
+
+[Install]
+WantedBy=multi-user.target
