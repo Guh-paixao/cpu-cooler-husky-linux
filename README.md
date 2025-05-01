@@ -8,7 +8,7 @@ A ideia central é monitorar a temperatura da CPU e exibi-la em um display conec
 
 Imagens meramente ilustrativas do tipo de hardware utilizado:
 
-![Cooler 360mm](img/WaterCooler_Husky_Glacier.jpeg)
+![Cooler 360mm](/imgs/WaterCooler_Husky_Glacier.jpeg)
 ![Cooler 240mm](/imgs/WaterCooler_Husky_Glacier_240.webp)
 
 ## Funcionalidades
