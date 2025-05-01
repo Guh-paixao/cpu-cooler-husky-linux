@@ -27,7 +27,7 @@ Imagens meramente ilustrativas do tipo de hardware utilizado:
 ### 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/cpu-cooler.git
+git clone https://github.com/Guh-paixao/cpu-cooler-husky-linux.git
 cd cpu-cooler
 ```
 
