@@ -1,13 +1,15 @@
 # CPU Cooler HID Display
 
-Este projeto tem como objetivo monitorar a temperatura da CPU e exibi-la em um display conectado via um dispositivo HID. A temperatura da CPU é obtida utilizando o módulo `psutil` e é enviada periodicamente para o dispositivo através da comunicação HID. O script roda como um serviço, garantindo que ele seja iniciado automaticamente sempre que o sistema for reiniciado.
+Este projeto é uma **adaptação para sistemas baseados em Debian** do software oficial de monitoramento da **Husky**, voltado para exibir a temperatura da CPU em watercoolers com display.
+
+A ideia central é monitorar a temperatura da CPU e exibi-la em um display conectado via um dispositivo HID. A temperatura é obtida utilizando o módulo `psutil` e enviada periodicamente para o display. O script roda como um serviço systemd, garantindo que ele seja iniciado automaticamente com o sistema.
 
 ## Exemplo de Watercooler Compatível
 
 Imagens meramente ilustrativas do tipo de hardware utilizado:
 
-![Cooler 360mm](/imgs/Water Cooler Husky Glacier.jpeg)
-![Cooler 240mm](/imgs/Water Cooler Husky Glacier-240.webp)
+![Cooler 360mm](img/WaterCooler_Husky_Glacier.jpeg)
+![Cooler 240mm](/imgs/WaterCooler_Husky_Glacier_240.webp)
 
 ## Funcionalidades
 
@@ -92,9 +94,6 @@ sudo systemctl status cpu-cooler.service
 sudo journalctl -u cpu-cooler.service
 ```
 
-## Contribuindo
-
-Se você quiser contribuir para este projeto, fique à vontade para abrir uma issue ou enviar um pull request.
 
 ## Licença
 
