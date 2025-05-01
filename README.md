@@ -28,7 +28,7 @@ A ideia central é monitorar a temperatura da CPU e exibi-la em um display conec
 
 ```bash
 git clone https://github.com/Guh-paixao/cpu-cooler-husky-linux.git
-cd cpu-cooler
+cd cpu-cooler-husky-linux
 ```
 
 ### 2. Instale as dependências:
